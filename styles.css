@@ -3,7 +3,6 @@ body {
 }
 .brand-logo {
   font-family: 'Domine', serif;
-  width: 100%;
 }
 
 .photo {
@@ -48,4 +47,12 @@ body {
 
 #hero .row {
   margin-bottom: 0;
+}
+
+@media (max-width: 400px) {
+  .brand-logo {
+    width:100%;
+
+  }
+
 }

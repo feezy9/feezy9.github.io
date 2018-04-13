@@ -1,15 +1,13 @@
-M.AutoInit();
 
 const keyinput = document.querySelector('#keyinput');
-const colfilter = document.querySelectorAll('.colfilter');
+const liS = document.querySelectorAll('.colfilter');
 
 
 keyinput.addEventListener('keyup', function() {
     let val = keyinput.value.toLowerCase();
-    for (el of colfilter) {
+    for (el of liS) {
     el.style.display =  !el.id.includes(val) ? 'none' : '';
   }
 })
 
-const trig = document.querySelector('.sidenav-trigger');
-const snoverlay = document.querySelector('.sidenav-overlay');
+M.AutoInit();
