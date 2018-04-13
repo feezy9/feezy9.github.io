@@ -1,14 +1,15 @@
+M.AutoInit();
 
 const keyinput = document.querySelector('#keyinput');
-const liS = document.querySelectorAll('.colfilter');
+const colfilter = document.querySelectorAll('.colfilter');
 
 
 keyinput.addEventListener('keyup', function() {
     let val = keyinput.value.toLowerCase();
-    for (el of liS) {
+    for (el of colfilter) {
     el.style.display =  !el.id.includes(val) ? 'none' : '';
   }
 })
 
-var elem = document.querySelectorAll('.scrollspy');
-var instance = M.ScrollSpy.init(elem, {});
+const trig = document.querySelector('.sidenav-trigger');
+const snoverlay = document.querySelector('.sidenav-overlay');
