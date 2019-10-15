@@ -16,7 +16,7 @@ body {
 
 
 .gradient {
-  background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,1)), url('https://scontent-lga3-1.cdninstagram.com/vp/0a7e15deb60d674abafea1f7d5659bfa/5B703F2A/t51.2885-15/e35/13113856_1709938169226288_1557911548_n.jpg');
+  background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,1)), url('djing.jpg');
   background-position: center;
   background-size: cover;
 }
